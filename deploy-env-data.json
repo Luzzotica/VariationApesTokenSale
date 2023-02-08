@@ -1,0 +1,50 @@
+{
+  "free.bana-gov": {
+    "keys": [
+      "3f6eaa66d98254b903f05605bef6276ad6510ec28531ad57e8d1bbbae44ef333",
+      "aeecd476ad8a4842ec84f3fbdad39b73fe7329fb4feaa3ea4367314a29a7e42b"
+    ],
+    "pred": "keys-any"
+  },
+  "free.bana-ops": {
+    "keys": [
+      "3f6eaa66d98254b903f05605bef6276ad6510ec28531ad57e8d1bbbae44ef333",
+      "aeecd476ad8a4842ec84f3fbdad39b73fe7329fb4feaa3ea4367314a29a7e42b"
+    ],
+    "pred": "keys-any"
+  },
+  "bank-guard": {
+    "keys": [
+      "3f6eaa66d98254b903f05605bef6276ad6510ec28531ad57e8d1bbbae44ef333"
+    ],
+    "pred": "keys-any"
+  },
+  "sale": {
+    "name": "bana-sale",
+    "token-name": "BANA",
+    "total-supply": 500000000.0,
+    "tiers": [
+      {
+        "tier-id": "Whitelist",
+        "tier-type": "WL",
+        "start-time": {"time": "2023-02-25T15:00:00Z"},
+        "end-time": {"time": "2023-02-26T15:00:00Z"},
+        "token-per-fungible": 6250.0,
+        "min-token": 312500.0,
+        "max-token": 5625000.0
+      },
+      {
+        "tier-id": "Public",
+        "tier-type": "PUBLIC",
+        "start-time": {"time": "2023-02-26T15:10:00Z"},
+        "end-time": {"time": "2023-02-26T15:10:00Z"},
+        "token-per-fungible": 6250.0,
+        "min-token": 312500.0,
+        "max-token": -1.0
+      }
+    ]
+  },
+  "tier-data": [
+  ],
+  "upgrade": false
+}  
